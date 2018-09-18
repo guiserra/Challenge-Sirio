@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perf"
+            android:icon="@drawable/perfil_ic"
+            android:title="Perfil" />
+
+    </group>
+
+    <item android:title="Premium">
+        <menu>
+            <item
+                android:id="@+id/nav_eme"
+                android:icon="@drawable/emergencia_ic"
+                android:title="Emergência +" />
+            <item
+                android:id="@+id/nav_dev"
+                android:icon="@drawable/smartwatch_ic"
+                android:title="Device +" />
+            <item
+                android:id="@+id/nav_fam"
+                android:icon="@drawable/familiares_ic"
+                android:title="Familiares +" />
+            <item
+                android:id="@+id/nav_premium"
+                android:icon="@drawable/premium_ic"
+                android:title="Premium +" />
+        </menu>
+    </item>
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/nav_conf"
+                android:icon="@drawable/config_ic"
+                android:title="Configurações"
+                />
+        </menu>
+    </item>
+
+</menu>
