@@ -25,7 +25,6 @@ public class DeviceActivity extends AppCompatActivity {
     ArrayList<String> stringArrayList =  new ArrayList<String>();
     ArrayAdapter<String> arrayAdapter;
     BluetoothAdapter myBluetoothAdapter;
-    TextView textoDisp;
 
     Intent btEnablingIntent;
     int requestCodeForeEnable;
@@ -78,8 +77,6 @@ public class DeviceActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == requestCodeForeEnable){
             if(resultCode == RESULT_OK){
-                textoDisp = (TextView) findViewById(R.id.txtDispositivo);
-                textoDisp.setText("Dispositivo Conectado");
                 buttonOn.setText("Bluetooth Ativo");
                 buttonOn.setEnabled(false);
                 Toast.makeText(getApplicationContext(),"Bluetooth is enable",Toast.LENGTH_LONG).show();
