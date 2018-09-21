@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "696823690892",
+    "firebase_url": "https://challenge-sirio.firebaseio.com",
+    "project_id": "challenge-sirio",
+    "storage_bucket": "challenge-sirio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696823690892:android:d013068ce2382ee2",
+        "android_client_info": {
+          "package_name": "com.example.guilhermeserra.challlengesirio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696823690892-od41nfe1h1fimvmntj0b1rja4b505j2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guilhermeserra.challlengesirio",
+            "certificate_hash": "c57846fa82641ca671935b9dba804babb5704850"
+          }
+        },
+        {
+          "client_id": "696823690892-hasgbna8r1ac38q0rurmu7am0enrksrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHGe9CUt9YYmImhHEwQShbBlICcglVtHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696823690892-hasgbna8r1ac38q0rurmu7am0enrksrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

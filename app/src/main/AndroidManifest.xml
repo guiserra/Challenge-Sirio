@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,7 +27,8 @@
         <activity android:name=".PremiumActivity" />
         <activity android:name=".FamiliarActivity" />
         <activity android:name=".DeviceActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity"></activity>
     </application>
 
 </manifest>
