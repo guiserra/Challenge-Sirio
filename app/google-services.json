@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "696823690892-a6jq51vmjcktfhhk1gbos7f9pm7ab6da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guilhermeserra.challlengesirio",
+            "certificate_hash": "4061a29a48eb0c204d6ee8964f5d6f20bf588c30"
+          }
+        },
+        {
           "client_id": "696823690892-hasgbna8r1ac38q0rurmu7am0enrksrc.apps.googleusercontent.com",
           "client_type": 3
         }

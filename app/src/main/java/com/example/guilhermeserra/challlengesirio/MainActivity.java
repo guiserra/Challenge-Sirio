@@ -113,7 +113,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(premium);
 
         }else if(id == R.id.nav_conf){
-
+            Intent teste = new Intent(this, DadoActivity.class);
+            startActivity(teste);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
